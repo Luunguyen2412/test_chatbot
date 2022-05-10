@@ -43,6 +43,7 @@ dependencies:
   flutter_animated_dialog: ^2.0.1
   http: ^0.13.0
   bubble: ^1.1.9+1
+  shared_preferences: ^2.0.9
 
 dev_dependencies:
   flutter_test:

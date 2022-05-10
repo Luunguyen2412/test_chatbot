@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:sound_stream/sound_stream.dart';
-import 'package:test_chatbot/chat/recommendItem.dart';
+import 'package:test_chatbot/screen/chat/recommendItem.dart';
 import 'package:test_chatbot/services_api.dart';
 import 'package:dialogflow_grpc/generated/google/cloud/dialogflow/v2beta1/session.pb.dart';
 

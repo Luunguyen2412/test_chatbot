@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_chatbot/home/home_screen.dart';
+import 'package:test_chatbot/screen/test_api/screen_1.dart';
 // ignore: import_of_legacy_library_into_null_safe
 
 void main() {
@@ -13,14 +13,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter ChatApp',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      debugShowCheckedModeBanner: false,
-      home: HomePage(title: 'flutter and python',),
-      //home: HomePageDialogFlow(),
-    );
+        title: 'Flutter ChatApp',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        debugShowCheckedModeBanner: false,
+        home: HomeTikiScreen(
+          tikiQuickItems: fetchQuickItem(),
+          title: '',
+        )
+        //home: HomePageDialogFlow(),
+        );
   }
 }
 
